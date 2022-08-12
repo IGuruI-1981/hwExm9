@@ -8,6 +8,7 @@ public class Main {
         System.out.println("Название книги: " + butterfly.getTitle() + "; " + butterfly.getAuthor() +  "; Год издания: " + butterfly.getYear());
         butterfly.setYear(1900);
         System.out.println("Название книги: " + butterfly.getTitle() + "; " + butterfly.getAuthor() +  "; Год издания: " + butterfly.getYear());
+        System.out.println("butterfly = " + butterfly);
 
 
         Author pushkin = new Author("Александр", "Пушкин");
